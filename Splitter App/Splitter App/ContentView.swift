@@ -40,7 +40,17 @@ struct CreateAccountView: View{
                     TextField("Password", text: $password)
                     TextField("Retype Password", text: $retypedPassword)
                 }
+                
+                Button(action: {
+                    //create method that makes sure that none of the required fields are empty
+                    //create method that checks if password matches the retyped password
+                    //create method that sends data to the database
+                }, label: {
+                    Text("Create Account")
+                })
             }
+            
+            .navigationTitle(Text("Create Account"))
         }
     }
 }
@@ -50,6 +60,8 @@ struct CreateAccountView: View{
         ZStack{
             Circle().stroke(lineWidth: 5).frame(height: 100)
             Circle().foregroundColor(.mint).frame(height: 100)
+            //add image of a blank person
+            //somehow create an image picker
         }
     }
 }
