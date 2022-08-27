@@ -9,8 +9,48 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        CreateAccountView()
+    }
+}
+
+struct CreateAccountView: View{
+    @State var fName: String = ""
+    @State var lName: String = ""
+    @State var email: String = ""
+    
+    @State var username: String = ""
+    @State var password: String = ""
+    @State var retypedPassword: String = ""
+    
+    var body: some View {
+        NavigationView{
+            Form{
+                StandardProfilePicView()
+                Section(header: Text("Name")){
+                    TextField("First Name", text: $fName)
+                    TextField("Last Name", text: $lName)
+                }
+                
+                Section(header: Text("Email")){
+                    TextField("Ex: j.appleseed@gmail.com", text: $email )
+                }
+                
+                Section(header: Text("Username and Password")){
+                    TextField("Username", text: $username)
+                    TextField("Password", text: $password)
+                    TextField("Retype Password", text: $retypedPassword)
+                }
+            }
+        }
+    }
+}
+
+ struct StandardProfilePicView: View {
+    var body: some View {
+        ZStack{
+            Circle().stroke(lineWidth: 5).frame(height: 100)
+            Circle().foregroundColor(.mint).frame(height: 100)
+        }
     }
 }
 
