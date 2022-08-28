@@ -14,6 +14,7 @@
 		1E25B0F628BABA97001EB05D /* Splitter_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E25B0F528BABA97001EB05D /* Splitter_AppTests.swift */; };
 		1E25B10028BABA97001EB05D /* Splitter_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E25B0FF28BABA97001EB05D /* Splitter_AppUITests.swift */; };
 		1E25B10228BABA97001EB05D /* Splitter_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E25B10128BABA97001EB05D /* Splitter_AppUITestsLaunchTests.swift */; };
+		1EFC976528BBFFAC00652392 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFC976428BBFFAC00652392 /* HomePageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		1E25B0FB28BABA97001EB05D /* Splitter AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Splitter AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E25B0FF28BABA97001EB05D /* Splitter_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splitter_AppUITests.swift; sourceTree = "<group>"; };
 		1E25B10128BABA97001EB05D /* Splitter_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splitter_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1EFC976428BBFFAC00652392 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				1E25B0E428BABA96001EB05D /* Splitter_AppApp.swift */,
 				1E25B0E628BABA96001EB05D /* ContentView.swift */,
+				1EFC976428BBFFAC00652392 /* HomePageView.swift */,
 				1E25B0E828BABA97001EB05D /* Assets.xcassets */,
 				1E25B0EA28BABA97001EB05D /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E25B0E728BABA96001EB05D /* ContentView.swift in Sources */,
+				1EFC976528BBFFAC00652392 /* HomePageView.swift in Sources */,
 				1E25B0E528BABA96001EB05D /* Splitter_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
