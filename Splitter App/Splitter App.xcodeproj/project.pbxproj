@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E17271C28BE6E4B0072DAA7 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E17271B28BE6E4B0072DAA7 /* LogInView.swift */; };
 		1E25B0E528BABA96001EB05D /* Splitter_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E25B0E428BABA96001EB05D /* Splitter_AppApp.swift */; };
 		1E25B0E728BABA96001EB05D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E25B0E628BABA96001EB05D /* ContentView.swift */; };
 		1E25B0E928BABA97001EB05D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E25B0E828BABA97001EB05D /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E17271B28BE6E4B0072DAA7 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 		1E25B0E128BABA96001EB05D /* Splitter App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Splitter App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E25B0E428BABA96001EB05D /* Splitter_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splitter_AppApp.swift; sourceTree = "<group>"; };
 		1E25B0E628BABA96001EB05D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 			children = (
 				1E25B0E428BABA96001EB05D /* Splitter_AppApp.swift */,
 				1E25B0E628BABA96001EB05D /* ContentView.swift */,
+				1E17271B28BE6E4B0072DAA7 /* LogInView.swift */,
 				1EFC976428BBFFAC00652392 /* HomePageView.swift */,
 				1E25B0E828BABA97001EB05D /* Assets.xcassets */,
 				1E25B0EA28BABA97001EB05D /* Preview Content */,
@@ -262,6 +265,7 @@
 			files = (
 				1E25B0E728BABA96001EB05D /* ContentView.swift in Sources */,
 				1EFC976528BBFFAC00652392 /* HomePageView.swift in Sources */,
+				1E17271C28BE6E4B0072DAA7 /* LogInView.swift in Sources */,
 				1E25B0E528BABA96001EB05D /* Splitter_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
