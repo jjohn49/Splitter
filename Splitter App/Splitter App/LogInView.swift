@@ -11,7 +11,8 @@ struct LogInView: View {
     
     @State var username: String = ""
     @State var password: String = ""
-    @State var popUp: Bool = false
+    @State var createAccountPopUp: Bool = false
+    @State var navigateToHomePage:Bool = false
     
     var body: some View {
         NavigationView {
@@ -27,14 +28,14 @@ struct LogInView: View {
                 }).frame(width:300).background(.tint).foregroundColor(.white).cornerRadius(20).padding()
                 
                 Button(action: {
-                    popUp = true
+                    createAccountPopUp = true
                 }, label: {
                     Text("Dont Have an Account? Create One!")
                 }).padding()
             }.padding()
             
                 .navigationTitle(Text("Log In"))
-        }.sheet(isPresented: $popUp, content: {
+        }.sheet(isPresented: $createAccountPopUp, content: {
             CreateAccountView()
         })
     }
@@ -44,8 +45,12 @@ struct UsernameAndPassword: View{
     @Binding var username: String
     @Binding var password: String
     var body: some View{
-        TextField("Username", text: $username).padding().background(.tertiary).cornerRadius(20)
-        TextField("Password", text: $password).padding().background(.tertiary).cornerRadius(20)
+        VStack(alignment: .leading){
+            Text("Username").bold()
+            TextField("j.appleseed", text: $username).padding().background(.tertiary).cornerRadius(20)
+            Text("Password").bold()
+            TextField("password", text: $password).padding().background(.tertiary).cornerRadius(20)
+        }
     }
 }
 
